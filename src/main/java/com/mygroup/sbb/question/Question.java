@@ -5,6 +5,9 @@ import java.util.List;
 
 import com.mygroup.sbb.answer.Answer;
 
+import jakarta.persistence.ManyToOne;
+import com.mygroup.sbb.user.SiteUser;
+
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -34,4 +37,7 @@ public class Question {
 
     @OneToMany(mappedBy = "question", cascade = CascadeType.REMOVE)
     private List<Answer> answerList;
+
+    @ManyToOne
+    private SiteUser author;
 }
