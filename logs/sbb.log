@@ -1,0 +1,29 @@
+2023-08-04 17:08:47.431  INFO 14236 --- [main] com.mygroup.sbb.SbbApplication           : Starting SbbApplication v0.7.7 using Java 17.0.8 with PID 14236 (C:\Users\user\project\sbb\build\libs\sbb-0.7.7.jar started by user in C:\Users\user\project\sbb)
+2023-08-04 17:08:47.433  INFO 14236 --- [main] com.mygroup.sbb.SbbApplication           : The following 1 profile is active: "prod"
+2023-08-04 17:08:48.512  INFO 14236 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-04 17:08:48.598  INFO 14236 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75 ms. Found 3 JPA repository interfaces.
+2023-08-04 17:08:49.408  INFO 14236 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-08-04 17:08:49.422  INFO 14236 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-04 17:08:49.423  INFO 14236 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2023-08-04 17:08:49.518  INFO 14236 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-04 17:08:49.518  INFO 14236 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1772 ms
+2023-08-04 17:08:49.571  INFO 14236 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-08-04 17:08:50.201  INFO 14236 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@476ec9d0
+2023-08-04 17:08:50.204  INFO 14236 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-08-04 17:08:50.216  INFO 14236 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://sbb-mysql-lyj.mysql.database.azure.com:3306/sbb?characterEncoding=UTF-8&useSSL=true&allowPublicKeyRetrieval=true&serverTimezone=Asia/Seoul'
+2023-08-04 17:08:50.367  INFO 14236 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-04 17:08:50.455  INFO 14236 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.5.Final
+2023-08-04 17:08:50.459  INFO 14236 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-08-04 17:08:50.645  INFO 14236 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-04 17:08:50.808  INFO 14236 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-04 17:08:51.032  WARN 14236 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-08-04 17:08:51.269  INFO 14236 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-08-04 17:08:51.957  INFO 14236 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-04 17:08:53.740  INFO 14236 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-04 17:08:54.282  WARN 14236 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-04 17:08:54.410  INFO 14236 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@f171912, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7d4d8579, org.springframework.security.web.context.SecurityContextHolderFilter@750ed637, org.springframework.security.web.header.HeaderWriterFilter@2921a36a, org.springframework.security.web.csrf.CsrfFilter@740b6628, org.springframework.security.web.authentication.logout.LogoutFilter@2da81754, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6002e944, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@673e76b3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1bedc703, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@159424e2, org.springframework.security.web.access.ExceptionTranslationFilter@3a7b2e2, org.springframework.security.web.access.intercept.AuthorizationFilter@7f4596d0]
+2023-08-04 17:08:54.912  INFO 14236 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-04 17:08:54.927  INFO 14236 --- [main] com.mygroup.sbb.SbbApplication           : Started SbbApplication in 8.12 seconds (process running for 8.622)
+2023-08-04 17:09:07.658  INFO 14236 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-04 17:09:07.658  INFO 14236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-04 17:09:07.660  INFO 14236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
